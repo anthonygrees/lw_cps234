@@ -1,0 +1,244 @@
+{
+  "reportName": "AWS APRA CPS 234 Information Security Beta v1.00",
+  "displayName": "AWS APRA CPS 234 Information Security Beta v1.00",
+  "reportDefinition": {
+    "sections": [
+      {
+        "category": "1.1",
+        "title": "1.1 Access Control and Identity Management: Multi-factor authentication or equivalent control",
+        "policies": [
+          "lacework-global-105",
+          "lacework-global-115",
+          "lacework-global-116",
+          "lacework-global-117",
+          "lacework-global-118",
+          "lacework-global-119",
+          "lacework-global-121",
+          "lacework-global-141",
+          "lacework-global-142",
+          "lacework-global-181",
+          "lacework-global-35",
+          "lacework-global-39",
+          "lacework-global-49",
+          "lacework-global-69"
+        ]
+      },      
+      {
+        "category": "1.2",
+        "title": "1.2 Access Control and Identity Management: Restrict administrative privileges",
+        "policies": [
+          "lacework-global-34",
+          "lacework-global-36",
+          "lacework-global-45",
+          "lacework-global-485",
+          "lacework-global-486"
+        ]
+      },
+    {
+        "category": "1.3",
+        "title": "1.3 Access Control and Identity Management: Audit logging and monitoring.",
+        "policies": [
+          "lacework-global-54",
+          "lacework-global-56",
+          "lacework-global-57",
+          "lacework-global-58",
+          "lacework-global-60",
+          "lacework-global-61",
+          "lacework-global-62",
+          "lacework-global-63",
+          "lacework-global-64",
+          "lacework-global-65",
+          "lacework-global-66",
+          "lacework-global-75",
+          "lacework-global-77",
+          "lacework-global-79",
+          "lacework-global-80",
+          "lacework-global-81",
+          "lacework-global-82",
+          "lacework-global-83",
+          "lacework-global-84",
+          "lacework-global-85",
+          "lacework-global-86"
+        ]
+        },
+      {
+        "category": "1.4",
+        "title": "1.4 Access Control and Identity Management: Access Security",
+        "policies": [
+          "lacework-global-34",
+          "lacework-global-36",
+          "lwintreesy1-default-3"
+        ]
+      },
+      {
+        "category": "1.5",
+        "title": "1.5 Access Control and Identity Management: Limit physical access",
+        "policies": [
+          "lwintreesy1-physical-1"
+        ]
+      },
+      {
+        "category": "1.6",
+        "title": "1.6 Access Control and Identity Management: Role-based access",
+        "policies": [
+          "lacework-global-34",
+          "lacework-global-36"
+        ]
+      },
+      {
+        "category": "1.7",
+        "title": "1.7 Access Control and Identity Management: Unique IDs",
+        "policies": [
+          "lacework-global-89"
+        ]
+      },
+      {
+        "category": "1.8",
+        "title": "1.8 Access Control and Identity Management: Password Authentication",
+        "policies": [
+          "lacework-global-37",
+          "lacework-global-38",
+          "lacework-global-39",
+          "lacework-global-40"
+        ]
+      },
+      {
+        "category": "2.1",
+        "title": "2.1 Infrastructure and Network Security: Encryption",
+        "policies": [
+          "lacework-global-51",
+          "lacework-global-52",
+          "lacework-global-72",
+          "lacework-global-77"
+        ]
+      },
+      {
+        "category": "2.2",
+        "title": "2.2 Infrastructure and Network Security: Firewalls",
+        "policies": [
+          "lacework-global-67",
+          "lacework-global-68"
+        ]
+      },
+      {
+        "category": "2.3",
+        "title": "2.3 Infrastructure and Network Security: Server Hardening",
+        "policies": [
+          "lwintreesy1-patch-1"
+        ]
+      },
+      {
+        "category": "2.4",
+        "title": "2.4 Infrastructure and Network Security: End-user Devices",
+        "policies": [
+          "lacework-global-47",
+          "lacework-global-74"
+        ]
+      },
+      {
+        "category": "3.1",
+        "title": "3.1 Data Protection and Privacy: Data loss prevention",
+        "policies": [
+          "lacework-global-49",
+          "lacework-global-50",
+          "lacework-global-54",
+          "lacework-global-73",
+          "lacework-global-74"
+        ]
+      },
+      {
+        "category": "3.2",
+        "title": "3.2 Data Protection and Privacy: CDR data in non-production environments",
+        "policies": [
+          "lacework-global-50",
+          "lacework-global-54",
+          "lacework-global-74"
+        ]
+      },
+      {
+        "category": "3.3",
+        "title": "3.3 Data Protection and Privacy: Information asset lifecycle",
+        "policies": [
+          "lacework-global-74"
+        ]
+      },
+      {
+        "category": "4.1",
+        "title": "4.1 Risk Incident Response and Monitoring: Security patching",
+        "policies": [
+          "lwintreesy1-patch-1"
+        ]
+      },
+      {
+        "category": "4.2",
+        "title": "4.2 Risk Incident Response and Monitoring: Secure coding",
+        "policies": [
+          "lacework-global-34",
+          "lacework-global-40",
+          "lacework-global-45",
+          "lacework-global-48",
+          "lacework-global-485",
+          "lacework-global-486",
+          "lacework-global-49",
+          "lacework-global-50",
+          "lacework-global-54",
+          "lacework-global-85",
+          "lacework-global-87",
+          "lacework-global-88"
+        ]
+       },
+      {
+        "category": "4.3",
+        "title": "4.3 Risk Incident Response and Monitoring: Vulnerability Management",
+        "policies": [
+          "lacework-global-497",
+          "lacework-global-67",
+          "lacework-global-68",
+          "lacework-global-76"
+        ]
+       },
+       {
+        "category": "5.1",
+        "title": "5.1 Threat Incident Response and Monitoring: Anti-malware anti-virus (NOT MAPPED)",
+        "policies": [
+          "lacework-global-74"
+        ]
+      },
+       {
+        "category": "5.2",
+        "title": "5.2 Threat Incident Response and Monitoring: Web and email content filtering (NOT MAPPED)",
+        "policies": [
+          "lacework-global-74"
+        ]
+      },
+       {
+        "category": "5.3",
+        "title": "5.3 Threat Incident Response and Monitoring: Application whitelisting (NOT MAPPED)",
+        "policies": [
+          "lwintreesy1-whitelist-1"
+        ]
+      },
+       {
+        "category": "6.1",
+        "title": "6.1 Governance, Risk, and Compliance (GRC): Security training and awareness",
+        "policies": [
+          "lwintreesy1-training-1"
+        ]
+      },
+       {
+        "category": "6.2",
+        "title": "6.2 Governance, Risk, and Compliance (GRC): Acceptable use of technology",
+        "policies": [
+          "lwintreesy1-accepttech-1"
+        ]
+      },
+       {
+        "category": "6.3",
+        "title": "6.3 Governance, Risk, and Compliance (GRC): Human resource security",
+        "policies": [
+          "lwintreesy1-human-1"
+        ]
+      }
+    ]
+  }
+}
