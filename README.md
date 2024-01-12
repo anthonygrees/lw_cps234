@@ -1,10 +1,10 @@
 # Lacework Compliance Assessment APRA CPS234
 A beta Lacework compliance assessment for APRA CPS234.  The Assessment maps to broader categories that align with key aspects of cybersecurity:  
-`Access Control and Identity Management`: This involves measures that ensure only authorized users can access systems and data.  
-`Infrastructure and Network Security`: This includes practices that protect the physical and virtual aspects of IT infrastructure.  
-`Data Protection and Privacy`: This category focuses on safeguarding data from unauthorized access and ensuring privacy compliance.  
-`Incident Response and Monitoring`: This involves detecting, responding to, and monitoring security events.  
-`Governance, Risk, and Compliance (GRC)`: This encompasses practices related to policies, training, and compliance with legal and regulatory requirements.  
+- `Access Control and Identity Management`: This involves measures that ensure only authorized users can access systems and data.  
+- `Infrastructure and Network Security`: This includes practices that protect the physical and virtual aspects of IT infrastructure.  
+- `Data Protection and Privacy`: This category focuses on safeguarding data from unauthorized access and ensuring privacy compliance.  
+- `Incident Response and Monitoring`: This involves detecting, responding to, and monitoring security events.  
+- `Governance, Risk, and Compliance (GRC)`: This encompasses practices related to policies, training, and compliance with legal and regulatory requirements.  
   
   
 ### 1. Configure Lacework API with Postman
@@ -20,5 +20,10 @@ POST https://YourLacework.lacework.net/api/v2/ReportDefinitions
 ```
 and pass in the JSON assessment for CPS234.  
 
+![Lacework Agent](/images/postman.png)
+  
 ### 3. View the Assessment in Lacework
-Once the policies have run in Lacework the Assessment will show including the report.
+Once the policies have run in Lacework the Assessment will show including the report.  
+
+![Lacework Agent](/images/cps234.png)
+  
