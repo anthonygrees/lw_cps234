@@ -1,7 +1,12 @@
 # Lacework Compliance Assessment APRA CPS234
-A beta Lacework compliance assessment for APRA CPS234.  
-
-
+A beta Lacework compliance assessment for APRA CPS234.  The Assessment maps to broader categories that align with key aspects of cybersecurity:  
+`Access Control and Identity Management`: This involves measures that ensure only authorized users can access systems and data.  
+`Infrastructure and Network Security`: This includes practices that protect the physical and virtual aspects of IT infrastructure.  
+`Data Protection and Privacy`: This category focuses on safeguarding data from unauthorized access and ensuring privacy compliance.  
+`Incident Response and Monitoring`: This involves detecting, responding to, and monitoring security events.  
+`Governance, Risk, and Compliance (GRC)`: This encompasses practices related to policies, training, and compliance with legal and regulatory requirements.  
+  
+  
 ### 1. Configure Lacework API with Postman
 This topic helps you get started with the Lacework API. It describes how to set up your API keys in the Lacework Console and then guides you through a few simple API calls using Postman.  
 https://docs.lacework.net/api/postman-api-quickstart
